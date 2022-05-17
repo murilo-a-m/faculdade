@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<title>Home</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+		<header>
+			<div class="header-box">
+				<h1><img class="logo-header" src="imagens/logo.png" alt="Logo SEUPET"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="veterinarios.html">Veterinários</a></li>
+						<li><a href="documentos.html">Documentos</a></li>
+                        <li><a href="contato.html">Meu Pet</a></li>
+                        <li><a href="contato.html">Minha Conta</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+        <main class="vete-main">
+            <div class="vete-titulo">
+                <h2>Procure por veterinarios</h2>
+            </div>
+
+            <div class="vete-selecao-animais">
+
+                <label for="vete-checkbox">Inserir dados manualmente</label>
+                <input id="vete-checkbox" type="checkbox" checked>
+
+            </div>
+        
+            <div class="vete-formulario">
+                <form >
+                    <label for="vete-selecao-especie">Selecione a espécie do seu animal</label>
+                    <select id="vete-selecao-especie">
+                        <option value="VALOR-AQUI1">Felinos</option>
+                        <option value="VALOR-AQUI2">Canídeos</option>
+                        <option value="VALOR-AQUI2">Anfíbeos</option>
+                        <option value="VALOR-AQUI2">Répteis</option>
+                        <option value="VALOR-AQUI2">Muridae</option>
+                    </select>
+
+                    <label for="vete-selecao-porte">Selecione o porte do seu animal</label>
+                    <select id="vete-selecao-porte">
+                        <option value="VALOR-AQUI1">Pequeno: 5 a 10 kg</option>
+                        <option value="VALOR-AQUI1">Pequeno: 10 a 20 kg</option>
+                        <option value="VALOR-AQUI1">Pequeno: 20 a 30 kg</option>
+                        <option value="VALOR-AQUI1">Pequeno: 30kg ou mais </option>
+                    </select>
+
+                    <label for="vete-selecao-servico">Selecione o tipo de atendimento:</label>
+                    <select id="vete-selecao-servico">
+                        <option value="VALOR-AQUI1">Emergências 24H</option>
+                        <option value="VALOR-AQUI1">Nutrição</option>
+                        <option value="VALOR-AQUI1">Diagnóstico por imagem</option>
+                        <option value="VALOR-AQUI1">Acumpuntura</option>
+                        <option value="VALOR-AQUI1">Dermatologia</option>
+                        <option value="VALOR-AQUI1">Ortopedia</option>
+                    </select>
+
+                    <label for="vete-selecao-cep">Indique o CEP da regiao de preferência</label>
+                    <input id="vete-selecao-cep" type="text" placeholder="99999-999">
+
+                    <label for="vete-selecao-data">Selecione a data de atendimento</label>
+                    <input id="vete-selecao-data" type="date">
+                    
+                    <label for="vete-selecao-hora">Selecione a hora de atendimento</label>
+                    <input id="vete-selecao-hora" type="time">
+
+                    <input class="vete-submit" type="submit" value="Consultar">
+                </form>
+            </div>
+
+        </main>
+		<footer>
+			<img class="logo-header" src="imagens/logo.png">
+		</footer>
+</html>

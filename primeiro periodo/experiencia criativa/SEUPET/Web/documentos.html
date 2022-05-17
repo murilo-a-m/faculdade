@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+		<title>Home</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+		<header>
+			<div class="header-box">
+				<h1><img class="logo-header" src="imagens/logo.png" alt="Logo SEUPET"></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="veterinarios.html">Veterinários</a></li>
+						<li><a href="documentos.html">Documentos</a></li>
+                        <li><a href="contato.html">Meu Pet</a></li>
+                        <li><a href="contato.html">Minha Conta</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+        <main class="vete-main">
+            <div class="vete-titulo">
+                <h2>Descubra quais documentos seu Pet precisa e onde faze-los</h2>
+            </div>
+        
+            <div class="vete-formulario">
+                <form >
+                    <label for="vete-selecao-especie">Selecione a espécie do seu animal</label>
+                    <select id="vete-selecao-especie">
+                        <option value="VALOR-AQUI1">Felinos</option>
+                        <option value="VALOR-AQUI2">Canídeos</option>
+                        <option value="VALOR-AQUI2">Anfíbeos</option>
+                        <option value="VALOR-AQUI2">Répteis</option>
+                        <option value="VALOR-AQUI2">Muridae</option>
+                    </select>
+
+                    <label for="vete-selecao-cep">Indique o CEP da regiao de preferência</label>
+                    <input id="vete-selecao-cep" type="text" placeholder="99999-999">
+
+                    <label for="vete-selecao-destino">Indique o destino da viagem</label>
+                    <input id="vete-selecao-destino" type="text" placeholder="Argentina">
+
+                    <input class="vete-submit" type="submit" value="Consultar">
+
+                </form>
+            </div>
+
+        </main>
+		<footer>
+			<img class="logo-header" src="imagens/logo.png">
+		</footer>
+
+</html>

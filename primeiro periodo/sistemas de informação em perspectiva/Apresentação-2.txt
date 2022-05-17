@@ -1,0 +1,53 @@
+Apresentação ERP
+
+- O que é ?
+    Sistema de gestão empresarial
+    Auxilia diretamente nos processos internos 
+    Transforma processos manuais em processos de software
+    Centraliza o fluxo de trabalho 
+    Comunicação interligada
+
+    "ERP é um sistema de software que ajuda você a administrar toda a empresa, incluindo processos de finanças, recursos humanos, produção, cadeia de suprimentos, serviços, procurement e muito mais"
+
+- Para que serve?
+    
+    -Maior produtividade: otimize e automatize seus principais processos de negócios para ajudar todos na sua organização a fazerem mais com menos recursos.
+
+    -Rapidez na emissão de relatórios: relatórios rápidos de finanças e de negócios e resultados compartilhados com facilidade. Trabalhe com base em insights e melhore o desempenho em tempo real.
+
+    -Riscos menores: maximize a visibilidade e o controle dos negócios, assegure compliance com as exigências regulatórias e preveja e previna riscos
+
+    -TI mais simples: utilizando aplicativos integrados de ERP que compartilham um mesmo banco de dados, você simplifica as operações de TI e oferece a todos um modo mais fácil de trabalhar.
+
+    -Agilidade aumentada: com operações eficientes e acesso direto a dados em tempo real, você identifica novas oportunidades e responde rapidamente a elas.
+
+    Insights de grande alcance: elimine silos de informações, crie uma fonte única da verdade e tenha respostas rápidas para questões essenciais dos negócios.
+
+    "E os silos de informação são exatamente isso: unidades de armazenamento de dados que não se comunicam entre si. "
+
+
+- 2 exemplos de softwares
+    SAP
+    Senior
+
+- Descrever os funcionamentos dos softwares
+    LINK DO GRUPO
+
+- No que eles se diferem ?
+
+    Sap possui alta complexidade 
+    Sap possui apuração de impostos em tempo real
+    Fácil conexão via API com outras plataformas
+
+    Senior possui CRM integrado
+    Sebior possui previsão orçamentária
+    Senior é um sistema nacional e mais simnples de se implantar
+
+- Algum exemplo de empresa que utilize (se existir)
+
+    Fiat e panvel utilizam o sistemas Senior 
+    Scania e Embraer utiliam SAP
+
+10% RA1
+
+

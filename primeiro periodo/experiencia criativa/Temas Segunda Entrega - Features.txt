@@ -1,0 +1,59 @@
+
+- 3 Objetivos principais da aplicação 
+    1 - Facilitar o acesso a profissionais qualificados na área da veterinária
+    2 - Facilitar acesso a documentação e requisitos para viagens com animais (ambito internacional)
+    3 - Rede social de pets que englobará cuidados, características e informações sobre animais perdidos.
+
+- Gerar uma lista do que a aplicação fará? (Features)
+
+    -Interface para login
+        -E-mail 
+        -Senha
+    -Interface Cadastro do Usuário ->
+        Nome 
+        CPF
+        Telefone
+        E-mail
+        animais
+        contatos dos animais
+        Localização real time
+
+    -Interface Cadastro da Clinica/Veterinario
+        Nome
+        CPF/cnpj
+        Telefone
+        E-mail
+        CRMV - Certificação  
+        Localização - fixa (diversos pontos de atendimento)
+
+    -Interface para busca de veterinários 
+        Espécie 
+        Problema
+        Local de atendimento
+        Horário de atendimento
+
+    -Interface de documentos para viagens internacionais 
+        Pais origem
+        Pais destino
+        Espécie
+        Porte
+    
+    -Interface para rede social de pets
+        Post/ Blog sobre animais 
+            Curiosidades
+            Achados e perdidos
+    -Help 
+
+    Personas
+        -veterinários
+            disponibilidade
+            local de atendimento
+            espsecialidade
+
+        -dono
+            pesquisar estabelecimento
+            consultar espsecialidade
+
+        -pet
+        -clinica
+
